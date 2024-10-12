@@ -8,10 +8,14 @@
     </script>
 </head>
 <body>
+
+    Hello world! <br />
+    The time from Python is --
     <script type="py" terminal>
         from pyscript import display
-        display("Hello World!")
-        print("Hello terminal!")
+        from datetime import datetime
+        now = datetime.now()
+        display(now.strftime("%m/%d/%Y, %H:%M:%S"))        
     </script>
 </body>
 </html>
