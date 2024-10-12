@@ -8,13 +8,13 @@
     </script>
 </head>
 <body>
-
-    Hello world! <br />
-    The time from Python is --
     <script type="py" terminal>
+        from display import display
         from datetime import datetime
         now = datetime.now()
-        print(now.strftime("%m/%d/%Y, %H:%M:%S"))        
+        now = now.strftime("%m/%d/%Y, %H:%M:%S")
+        display("Hello everyone!
+        display(f"The time from Python is --- {now}")        
     </script>
 </body>
 </html>
