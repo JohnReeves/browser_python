@@ -64,7 +64,7 @@ label {
 input, 
 textarea {
   font: 1em sans-serif;
-  width: 300px;
+  width: 400px;
   box-sizing: border-box;
   border: 1px solid #999;
   background-color: rgb(231, 240, 116);
